@@ -13,6 +13,8 @@ RDE_SIMPLE_REGISTRATIONデータセットテンプレートは、簡易にデー
 
 RDEToolKitを用いて作成されています。
 
+機能などについては[ガイド](guide.md)を参照してください。
+
 ## 関連リンク
 
 - [RDEToolKit](https://github.com/nims-mdpf/rdetoolkit)
