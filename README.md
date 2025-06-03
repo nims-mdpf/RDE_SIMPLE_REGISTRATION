@@ -1,0 +1,2 @@
+# RDE_SIMPLE_REGISTRATION
+シンプル登録データセットテンプレート
