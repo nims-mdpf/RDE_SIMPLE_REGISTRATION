@@ -1,0 +1,285 @@
+SOFH
+Platform: PC
+Technique: XPS
+FileType:  SPECTRUM
+FileDesc: MIDATA001
+SoftwareVersion: SS 3.6.1.16
+InstrumentModel: PHI Hoge SXM
+AcqFilename: C:\Datafiles\NIMS\20070707\MIDATA001.108.spe
+FileDate: 2007 6 6
+AcqFileDate: 2007 6 6
+Institution: 
+Operator: 
+ExperimentID: 20070707
+EnergyReference: none 0.0
+AnalyserWorkFcn: 4.250 eV
+AnalyserRetardGain: 1.000093
+PlatenID: MIDATA001
+PlatenDesc: 
+PhotoFilename: MIDATA001.101.pho
+SXIFilename: 
+SourceAnalyserAngle: 45.0 d
+AnalyserSolidAngle: 0.38 sr
+IntensityRecal: no
+IntensityCalCoeff: 14.371 0.143
+EnergyRecal: no
+ScanDeflectionSpan: 100 90
+ScanDeflectionOffset: 15 28
+SCAMultiplierVoltage: 1600.0 V 
+NarrowAcceptanceAngle: no
+PeakToNoiseRatioState: no
+DelayBeforeAcquire: 5 seconds
+C60IonGun: None
+SemFieldOfView: 1400.0000000
+ImageSizeXY: 1400.0000 100.0000
+IonGunMode: Standby
+SputterIon: Ar+
+SputterCurrent: 0.000 uA
+SputterRate: 0.000 A/min
+SputterEnergy: 1.000 kV
+FloatVolt: 0.0 V
+FloatEnable: no
+GridVolt: 150.0
+CondensorVolt: 719.00 
+ObjectiveVolt: 765.00 
+BendVolt: 39.00
+SputterRaster: 2.00 2.00 mm
+SputterRasterOffset: 0.790 -0.870 mm
+TargetSputterTime: 2.2 min
+SputterEmission: 25.00 mA
+DeflectionBias: 0.0 V
+XpsScanMode: scanned
+AnalyserMode: FAT
+SurvNumCycles: 1
+SurvTimePerStep: 20.000000
+NoSpectralRegFull: 10
+SpectralRegDefFull: 1 1 Su1s 111 2801 -0.5000 1380.0000 -20.0000 1379.0000 -19.0000 0.000000 280.00 AREA
+SpectralRegDef2Full: 1 1400.0 5 0 2 1
+SpectralRegBackgroundFull: 1 0.0 680.0 0.0
+SpectralRegHeroFull: 1 680.0 0.0 0.0 0.00
+SpectralRegIRFull: 1 0 0.000 0.000 0.0
+SpectralRegDefFull: 2 0 N1s 7 401 -0.0500 410.0000 390.0000 409.0000 391.0000 0.000000 26.00 AREA
+SpectralRegDef2Full: 2 20.0 3 0 8 1
+SpectralRegBackgroundFull: 2 0.0 400.0 0.0
+SpectralRegHeroFull: 2 400.0 0.0 0.0 0.00
+SpectralRegIRFull: 2 0 0.000 0.000 0.0
+SpectralRegDefFull: 3 0 S2p 16 201 -0.1000 175.0000 155.0000 174.0000 156.0000 0.000000 55.00 AREA
+SpectralRegDef2Full: 3 20.0 5 0 6 1
+SpectralRegBackgroundFull: 3 0.0 165.0 0.0
+SpectralRegHeroFull: 3 165.0 0.0 0.0 0.00
+SpectralRegIRFull: 3 0 0.000 0.000 0.0
+SpectralRegDefFull: 4 0 Ag_MNN 47 251 -0.1000 1145.0000 1120.0000 1144.0000 1121.0000 0.000000 55.00 AREA
+SpectralRegDef2Full: 4 25.0 8 0 6 1
+SpectralRegBackgroundFull: 4 0.0 1132.5 0.0
+SpectralRegHeroFull: 4 1132.5 0.0 0.0 0.00
+SpectralRegIRFull: 4 0 0.000 0.000 0.0
+SpectralRegDefFull: 5 0 Ag3d 47 201 -0.1000 382.0000 362.0000 381.0000 363.0000 0.000000 55.00 AREA
+SpectralRegDef2Full: 5 20.0 3 0 6 1
+SpectralRegBackgroundFull: 5 0.0 372.0 0.0
+SpectralRegHeroFull: 5 372.0 0.0 0.0 0.00
+SpectralRegIRFull: 5 0 0.000 0.000 0.0
+SpectralRegDefFull: 6 0 Cu2p 29 501 -0.1000 974.0000 924.0000 973.0000 925.0000 0.000000 55.00 AREA
+SpectralRegDef2Full: 6 50.0 2 0 6 1
+SpectralRegBackgroundFull: 6 0.0 949.0 0.0
+SpectralRegHeroFull: 6 949.0 0.0 0.0 0.00
+SpectralRegIRFull: 6 0 0.000 0.000 0.0
+SpectralRegDefFull: 7 0 Cu_LMM 29 801 -0.1000 620.0000 540.0000 619.0000 541.0000 0.000000 55.00 AREA
+SpectralRegDef2Full: 7 80.0 5 0 6 1
+SpectralRegBackgroundFull: 7 0.0 580.0 0.0
+SpectralRegHeroFull: 7 580.0 0.0 0.0 0.00
+SpectralRegIRFull: 7 0 0.000 0.000 0.0
+SpectralRegDefFull: 8 0 O1s 8 201 -0.1000 543.0000 523.0000 542.0000 524.0000 0.000000 55.00 AREA
+SpectralRegDef2Full: 8 20.0 5 0 6 1
+SpectralRegBackgroundFull: 8 0.0 533.0 0.0
+SpectralRegHeroFull: 8 533.0 0.0 0.0 0.00
+SpectralRegIRFull: 8 0 0.000 0.000 0.0
+SpectralRegDefFull: 9 0 C1s 6 201 -0.1000 298.0000 278.0000 297.0000 279.0000 0.000000 55.00 AREA
+SpectralRegDef2Full: 9 20.0 5 0 6 1
+SpectralRegBackgroundFull: 9 0.0 288.0 0.0
+SpectralRegHeroFull: 9 288.0 0.0 0.0 0.00
+SpectralRegIRFull: 9 0 0.000 0.000 0.0
+SpectralRegDefFull: 10 0 Au4f 79 401 -0.0500 99.0000 79.0000 98.0000 80.0000 0.000000 55.00 AREA
+SpectralRegDef2Full: 10 20.0 2 0 6 1
+SpectralRegBackgroundFull: 10 0.0 89.0 0.0
+SpectralRegHeroFull: 10 89.0 0.0 0.0 0.00
+SpectralRegIRFull: 10 0 0.000 0.000 0.0
+NoSpectralReg: 1
+SpectralRegDef: 1 1 Su1s 111 2801 -0.5000 1380.0000 -20.0000 1379.0000 -19.0000 0.179640 280.00 AREA
+SpectralRegDef2: 1 1400.0 5 0 2 1
+SpectralRegBackground: 1 0.0 680.0 0.0
+SpectralRegHero: 1 680.0 0.0 0.0 0.00
+SpectralRegIR: 1 0 0.000 0.000 0.0
+NoSpatialArea: 1
+SpatialAreaDef: 1 HP1 4 (9343.5 -21406.3 24061.0 45.0 0.0) (10743.5 -21406.3 24061.0 45.0 0.0) (10743.5 -21306.3 24061.0 45.0 0.0) (9343.5 -21306.3 24061.0 45.0 0.0)
+SpatialAreaDesc: 1 #1 Ag foil
+SpatialHRPhotoCor: 1 (0.0 0.0)
+XraySource: Al 1486.6 mono
+XrayAnodePosition: 10
+XrayPower: 103.08 W
+XrayBeamDiameter: 100.0 um
+XRayBeamVoltage: 20000.0 V
+XRayCondenserLensVoltage: 10000.0 V
+XRayObjectiveCoilCurrent: 0.950 A
+XRayBlankingVoltage: 370.0 V
+XRayFilamentCurrent: 1.686 A
+XRayStigmator: 0.0 0.0
+XRayHighPower: yes
+EgunNeutMode: Off
+NeutralizerCurrent: 20.0 uA
+NeutralizerEnergy: 1.40 V
+EgunNeutExtractor: 30.0 V
+EgunNeutXSteering: -11.0 
+EgunNeutYSteering: 6.0 
+EgunNeutFilament: 0.00 A
+EgunNeutPulseLength: 10.0 msec
+SxiPersistence: 1
+SxiSecPerDisplay: 1.0 
+SxiAutoContrast: yes
+SxiAutoContrastLow: 0.30 
+SxiAutoContrastHigh: 0.30 
+SxiBindingEnergy: 1458.6 eV
+SxiPassEnergy: 0 eV
+SxiLens2: 500 V
+SxiLens3: 430 V
+SxiLens4: 250 V
+SxiLens5: 0 V
+SxiRotator: 0.75 A
+SxiLensBias: 0 V
+SxiShutterBias: yes
+SxiShutterBiasVoltage: 200.0 V
+SxiDisplayMode: 2
+Detector Acq Time: 10.0 (min)
+Number Of Channels: 32
+Channel Info: 1 1 1.239
+Channel Info: 2 1 1.220
+Channel Info: 3 1 1.196
+Channel Info: 4 1 1.191
+Channel Info: 5 1 1.175
+Channel Info: 6 1 1.176
+Channel Info: 7 1 1.158
+Channel Info: 8 1 1.151
+Channel Info: 9 1 1.123
+Channel Info: 10 1 1.108
+Channel Info: 11 1 1.095
+Channel Info: 12 1 1.077
+Channel Info: 13 1 1.055
+Channel Info: 14 1 1.048
+Channel Info: 15 1 1.019
+Channel Info: 16 1 1.006
+Channel Info: 17 1 0.979
+Channel Info: 18 1 0.961
+Channel Info: 19 1 0.938
+Channel Info: 20 1 0.930
+Channel Info: 21 1 0.907
+Channel Info: 22 1 0.903
+Channel Info: 23 1 0.887
+Channel Info: 24 1 0.883
+Channel Info: 25 1 0.872
+Channel Info: 26 1 0.878
+Channel Info: 27 1 0.868
+Channel Info: 28 1 0.877
+Channel Info: 29 1 0.873
+Channel Info: 30 1 0.889
+Channel Info: 31 1 0.884
+Channel Info: 32 1 0.910
+StagePosition: 10.1270 22.9872 24.0607 45.0000 0.0044
+StageCurrentRotationSpeed: 1.0000
+DefectPosID: 1
+DefectPosName: #1
+DefectPosComment: #1 Ag foil
+DefectPosU: 10.0455
+DefectPosV: 21.3563
+DefectPosX: 10.1270
+DefectPosY: 22.9872
+DefectPosZ: 24.0607
+DefectPosTilt: 45.0000
+DefectPosRotation: 0.0044
+DefectPosAligment: Standard
+DefectPosReferenceImage: MIDATA001.101.pho
+Deconvolution: no
+DeconvolutionPassEnergy: 13.00 eV
+XRaySetting: 100u100W20KV_HP
+AutoEGunNeut: no
+AutoEGunNeutSetting: Neutralizer
+AutoIonNeut: no
+AutoIonNeutSetting: Neutralize7eV
+AutoZAlign: no
+AutoZAlignSetting: 100u25W15KV
+AutoZAlignHPSetting: 100u100W20KV_HP
+Presputter: no
+PresputterSetting: 4KV2x2
+PresputterTime: 2.00 (min)
+AutoBeamPark: no
+AutoBeamParkSetting: PREVIOUS
+EOFH
+      `                      
+        pnt     sar      
+    @c/s  yp        f4   +  p                 Hc  H  H # H 
+ H   H  H G H1] H]ūH s H  H   Huq H   H{5 H q H HߠH  H   H 5 H   H,˚H   Hp He H 6 H x H	֖H 3 H ϕHY  H   H+U H  H+U Htx H 1 Hn H
+  HFo HZQ H w H ; Hgj H B H  H  HTZ HDj H   H$،H;ώH  HA  HM H  H t H   H1 H[  H1 Hx  HC2 H r H ͆HgхH 3 H ǅH H)t Hs3 HUh He
+ H d H 
+ Hp H p H:1 H b H w HW H   H m H b H   H3тH x H   H ɂH*  H!M Ho  H   H긃H@τHG  H%  H N H H;6 H t H6  HCM Hfh H 6 Hh H   HQv H  HA- HWm H ܇H5b H0" HAԆHW H~! H3R Hp H:  H  H  HAԆHz H   H  H(  H   H   H+҆H نHn& H  H  HF  Hه H  H   H=ǉHF  H  H   H+  Hh  HL  Hہ H @ H Y Hu  H ΎH Y H]ڎHs  HV_ H N H 9 Hj Hv? HaM Hg H  H/ H ʓH,  H @ H  H}ҕH!Q H A H ϖH : H   H H ȗH  Hǆ H.j Hp  Hց H  HZy H ͔H ϔHrٕHʃ H єH   H9דH / H ] H`2 H(̔H֌ Hz H<  H<  H  H ܓH  H 0 H^k HmK Hp- H|ݓH_" H7  H޾ H
+ H5  H  H X Hg  H   Hx9 Hց H R H E H   H A Hi H  H  H?j H 6 HmזH h HP H r H  H ) Hk  HN  H  H  H
+ HN H-O H Hu  HC H HvL H T H   H2 H  H&{ H u HѲ H i H ݚH ޚH H  H ЛH Hp/ H   H [ H|ߜH   Hz H̜H  Hdd H H  H H!^ H> HeH"ǜH o H H%E HE  H~= H  H͚ H   HŃ Hfi H  H¡ Ha H   H}ɠH ʟH   H ٢H U H   H 6 H   HO  H@ H  HT HM  H ܧH   H`Y H V H   Hs^ Hǽ HF  H{  H  H Hq  Hϼ H ŧH  HG  H ŤH   H Hg  H 8 H*z H D H> H3ǝHW  H ! H}  H
+  Hp H ܛH
+I H ' Hv؛HՉ H'p H   H H  H   H  H ؟H_  H   HV HE
+ H ͡Hy  H D H%  H  H j H H۩Hu H  H  H ٮH   H ҰH`  H < H
+  H % HT, H   H7V H ɸHZ# H $ HH  H)` H  HCI H  Hh H H ~ H   H [ HY H  H  H H  H^״H ųHRٲH9 H   H d H  HȚ H G H  Hr  Hx Hї H H 2 HK% HM H   HN  H = HJՋH U H H$ H4m Hh H   H  H  H ; H  H5  H   H   H ܀HGQH6 H H  Hk.~HZ#H>> H  H   H  H   H A H s HV  H@C HD  H  H Hy  HK1 H~  H   H˄H > H}ÅH . H   HpQ H#b H  H  H  H   HZ H  H	  H  HxB H3  Hg  H%ݎH { H:
+ H g H-' HX  H}ҕH   He  H   H R H . H   H!  H)ЦHE HY, H5  H ųHZ# H ƼH 5 Hf  H  H v H~  HR_ H V H I ;IM IsI  	ILI D H  HO  HT  H( HH  H   H4  HJp H o H ߴH ÝH   H M H  }H  wH xrH kkH gH  `H  ZHZ VH} PH LH JH ?HH,GH ?FHM CHϲCH$ AH oAH R@H =H  =H|<H =H)U=HR=H C<H%n<H&@;H 9HF 9H %:H9Hk :H9k:H :H 9H S<H :H ;H}39H8 ;H5+:Hu 8H  :H  9H :H );H :H  :H" 9H7K:H ~:HQ ;H  ;HP =H  :Hv ;H  ;H  9H :?HO;H  <H =Hz <H:`<H l<H :?H  <HC =H >Hv >Hk>H O?HPG>H  @H  >H9 ?H4 ?H  ?Hf@H a@H, >H 9@H  AHw AH  AHWCAHۈ@HL ?H BHm@H  ?HJ*AH$ @Hh BH BH& CHD BH7 AH
+ICH) CH) CH(mBHI DH3
+CH`_DH CHDHy BH\ DH0FHV EH  EH  EHC FHA^HH HHV[FH0^GH.3IHO DH EHYeJHN FH  GH  FH rDH @FHt&FH87GH  FH ?HH 
+HH  GH JH, IH  JH*LHH>JHlBHHqKH  KH mKH fMH jJHxsMH 7LH|MHVLH tMHG MHz MH ?KHE MH  NH NH SNH'DMHt(OH iNHKoMH  NH,yOHGOH  OH MH OHP NH PH OH PHh QH,yOH  PH 7MHJRH@OHQHY$PHU'SH"RH2 PH,yOH  OH&gPHְOH OHH QH;NRH  QH QHw PH :QHy RHQH  QH  OHsKRHD'RH 6QH ^PH
+XSH  THe THOcUH  TH5 RH/ TH TH SH$ SH:#TH  RHM SHe TH  THI SH DUH rVHG UH  UH  THn|VH UWH! UHEVHp VH  VH؄WHt5VHxuVH  XH  VH #ZH  WHmVH  ZHlWH  XH  XH{<WH  WH XH  XHJ;ZH \ZH [HYtZH  [H XHd[H, YH& ZH  [H Q\HhT[H  ZH \H>p[HT ]H ]H~ ]H X]H  ]H F^Hg ]H  _H_H W`H#_H΍`H
+$`HA `H  `HE _HP _H _H)^HN:`H3 aHd bHF aHQObH 	bHgdH `H cHddHuzbH> cH PcH 	bH _`H bH aHѢbH@ aH :cHn~_H aH `H  aH{ `H.O`H; aHylaH^ cH  aH ibHH aHD bH BbH edH= aHQObH cHU6cH bcH3 bH޻bH-geH 0cH dH hdH3 cH OgH {dH weHb dH eHD+dHM eH fH fHCNgHVyfH|fH weH  dH  eH AeH pfH afH  eH  dH0#hH efH~=fH	1gH eH fH  gH  eHc gH`$eH $hH zeHgygH hHD iH zhH hH  hHxhHsgiH! hH 6jH  fHynjH&xiH7xjH  jHe hH#
+hH> jHw kH /kHq<kH (jH okHY jH5MlH yiHu#lH NkH  lH@FlH2nH  lH mHM mH  nH |lH))nH  kH oH mHZoHWmH  oH  nH 9oH *pH 2nH <oH  oH sH UoH *pH_ oHFqH FqH qH MsH rH ;sHD qH jrH rH*lqHOsH  rH  rH [tH  tH &uH(AsH) tH  sH sH sHR vHH sHv wH@ tH&otHcHwHesuH  wH_wH wH  wH@xH'
+wH8dwH bxH EwHl wH7 zH  xH  yHuyHR yHPzH ^zH3 zH, yH ozHPzHĚ{HʬzH7 yH IzH: {H& zH  {H
+H H &}H)8~H {H  |H !}H
+ }HQ|HZ|~HI |Hx}HO |Ht H ' H5\|H /H  ~H  H*\ H  Hx ~H n H  H āHO. H T H  H x H? H=l H ƁH^ H)  H Hk HI  H; HU5 H  Ha H { Hѡ H	 H#/ H ! HQ  H^ H'_ H٭ H  H H / H 
+ Hd H9o HyE H  H f H   H  HL H _ Hj H" H   HY H  H " H   H  HSH HY  HY? H   H  H ކH   H   H(I H H,  H@ĆH ` H  H H C Hߙ Hp  H* H ҇H^݇HcĈH ` H e HY  H 0 H r H   H. H J Htv H HH) H H H o H   H J H H HQ HR  H ͊H u HDފHs Hѣ H  H ȋH t H } H2 H ڊH  H _ Hv  H y H   H  H/ HCZ HN HP̌Hu  HdU H ȌH J H ӌH I H  H  H  H
+ H   H ԍH   Hd  HˎH H N H  H5 H   H5 H   H   Hu  H   H E H  H[a H 	 H0 H 5 H,2 H   HnڏH{ H ݐH H  H Y HlF H   H  H   H$  HT HⰒH ɑH  HHf  H  Hs HH+ H  H[; H ' H   H ! H". H{& H` H _ H
+< HX  H H## H\וH   H  HL HJ H C Hf  Hъ H s H"a H   Hw) HGN H=  H ՕH2 H  H{  H~0 H  H S HoE H= HėH  H	$ Hב H o H 9 H Hd  Hre HH  H$
+ Hh| HeL HHC H{3 H  Hߍ H r H	 H^x H x H  H H
+ H	r Hh H I Hd1 H g H	 H?  H 0 Hh Hd HⲛH l H  Hg H,r HQ HZ- H2қH Q H
+ H   H  HF H 2 H НH\2 Ho  HOr HR H G H 
+ H C H s HI  HUy H¡ Hj HL, HJ HϠH   H  H 8 H  Hӑ HE  HP H~ H ; H  H Q HE
+ HAq H 9 H ҢH H / HX H ֤H ףH  H [ Hzs H   Ho  HnO H߄ HCk H " HE Hљ HH H ٥H' H : Hc H( HҞ H   H ^ H 1 H   H  HAs H   H# H V H! H   Hd  H   H  H	 H   H [ H   H I H~  H ] H ԹH*2 H ѺH ʺH w H = H_  H v H2  H"  Ho  H픯H 
+ H   H   H M H   H   H  Hv
+ H  H > H  H.y Hg H~  HŐ H   H 4 H l H l HY H" H   H HB HK  H  Hk H=ͤH  H ) Hڍ H  H>ݤH  H " H3  H   H\O H   HD- Hy
+ HuʤHf  H盥H ΤH ; H^  HJ H B HcV H?+ H拥H e H:) H ӦH   HLD H_d H   HX] H#' H  H  H 8 H O HҞ H 6 HZ  H` H  He[ H
+C Hl˨H j H a H P HJg H ݨH v HGީHz H   H   H
+8 H Q H  H  H?  HĨ HΑ H ʫH  H  H}	 H   HتH  HH HQc HP  H	
+ H  H<q H   HZ  H  H ' H   Hh  H~ HpʮH  H k Hz  HeѮH   H E H H I H- H B HЋ H W H2m H   H  H $ Hy HA  H 
+ H  H  Hi HL; H  H  HHׇ H ` H ΰHg/ H(  H P H   Hp H  HaıH  H   H űH   H   H'  H  HwƱH 8 Hrk HQp H 4 H 3 H  H ʹH ĴH]ǴHtp H 
+ HuζH J HjŶHB H   HH HM H  H  H<X HD HBj H ķHY Hb  H  H 1 H9 H k H f H]H HB H [ HǙ H ` Hfo HC  H j HIK HSD H	u H!> H   H a HW HP H*  H  Ha  HI  Hʰ Hk  H ? H   H;& H  Hd` HfZ H
+J H  H  H 4I
+h
+IE I IO I mI Q H;  H ! H   HN H|  Hgd H  H  Ha: H?: H ) HᾲHϣ Hގ Hީ H% H  Hg/ Hw H Y HƇ H/ٰH   H N H 	 H
+ HpV H  H٧ H4 H | HH8  H3 H! H   HkI HoǵHQ H/ H  H  Ho H4 HvQ Hv  H]  H{  H~D H   H   HS| H   H  I  Iˢ$I ,7I  CI' DI _8I=9"I 
+I _ Hm H
+  Hs  H ¬H O H ßHtz H 
+ H   H 
+ H M H'  H  H  H  Hn؆HdH H|Z H   H  H	 H8_ H Hv H ҂Hm HVE H   H&O H^ H`. H  H  H { HI H ƁH)1 Hq9 H # H-ʁHFU H o H ցH?3 H H z H } H+Q H ցH S H   Hұ H 1 H|فHĆH / H ƂHB  H   H / H޺ H+  Hr  H  H   H   HK< HlނHM H   H
+  Hx  H σH  H   H O HqՃH  H   H 	 H[ӃHF HↄH   H*6 H   H D HG? H  H H ̈́H   HbڄH I Hs  Hr HTX H Q H细H   HK  H   H<  H  H  H)Y H7D H   H ކHx  Hɗ H`V H R H  H n H' Hp  HFb H   HT H ɈH   HA  H栈H 6 H Q Hv  Hv  H S H&ŉH&ŉH1 H  H  H   H ͊H  H敊H   H ( HEG H  H ֋H   H   H V HH X H   Htk HZw H ֊H  H/: H  Hh Ho H   HK H 
+ H5؍H8 H   H-  H f H q Hf H䨍H  H   H4 H   H   H P H6& H Y H9  H H  H[ HR HO  Hn3 H`  H m Hj H%t H'V H C H  Hd Hn3 H   H s H ԐHZ  Hw H⻐H,2 H H   HK
+ H!БH/R H Z Hr  H E H . H ŒH  H גH   Hi  H   H * H   H דHV9 H  H \ H4| H   H q H ÔH%C H T H6  HߕH | H  H s H ؕH6  H   H 1 H A Hj  H X H   H H HoP H ֖H*x H - HBL H%ϗH J H. H 6 H?ÖH> H01 H㚖H  HG3 Hp  HI  H ] H o H  H T H H  H  H` H   H   H  H x H^E H  H o H v HHg H + H6 Hh՗HaΖH ͘H  HU H R H   H } H } H2Q Hz HZS H   H>  HY H]  H0  H   H
+ H   H 9 H   Hv  H   H # H1 HH醙HJc HnܘH p H  H  H͗H   Hٖ H ƘH;їH  HPO H  HW  H ~ HVF H 5 H ȜH   Hq? H a H @ H   H=  H\  H ( H 1 H  H  Ht H p H l HQF Hq H#ΧH  HHG HἩH ѩHq He  H M H ? HI  H H  H H	 H ^ H گHp  HP԰H@  H<V H   H 4 H+q HB  H ] H￭Hs H   HR  H   HG H  H   H b Hԥ H]  H H* HL" H   H҇ H   H \ H  H < H.@ H + H   H&  H`Y H .I4CIZd Iz  I9
+ I n I I֙ H)  H?  Hu H!  H mI TMId  I ` I \ I ڜI4 I m HЍ7H 2HH& G9z G 3 Gq  G  G ĕGmI GI_ G ozG SwG  jGg fG b`G\ \G
+VG/*TGMG qKGraNG}JG` LG IGN FGW JG
+VJG^?DG #IG# GG  FG UDG  AG	EGp EG3fBG  DGw @Gf BGD BG JEGo BGE DG |DG  BGEFG  CG CG FGgDG JFG+ DG[BG BG .BGUCGf @G D@G ?G kBG] AG  DGM4EGM?CGE DG @G	 EG"
+BG UBGM4EG |EGw|BGVfDG CG+wFG  @G  DGlGG AG DDG߇FG DDG kCG EG HG  EGNIG#EGGM4EG JIGaIG6}MG>aKG fLG )LGy GG_4FG  GG 4JGaIG  HG,IG  GGVGG
+IG EG  FGxfFG #FG  HGFGp4GG< EGW KGaIG DG EGE FG-aJG 4IGqKG  DG HGqKG}KG qKG fJG  JG  IGx EG/JG  JGOaLG#EGGVKG  IG  HGy IG  KG
+ JGPVNGqKG؍LG>VMG KG>LGOMGrLG OGPVNG  PGP MGz MGj/OG 
+LGO KG )NG  NGhEKG
+ KGz KG`lKG  PG@ SG RG lRG? PG VQGHrPG lRGQ5TGs SG| TG  OG RG  MG PG wPG lSGG$OG.@PG  RG  PG  UG aRGшTG VG*RG VG /TG@5SG KVG lTG
+ TG  XGl WGȺRGc VG
+TG/xUG
+mUG /VG UGk\VG  VG TG wRG  XGmVG 5WG VUG~ \GZ VG  WG9 WGJ ZG  WG [G  ZG YG  ZG0mWG ZG @YGlFZG ]GR XG  XGbXG\;[G~ \G }XG 5]G WG1	ZGӵ[GvW_G\;[G ]_G)%\GvW_G `G  ^G  `GofGGcG gG  fGw cG+ eGwLaG  ZGn ^G)s]G ]G  \G 5\G \GB \G  ^G  ^G  ]G  [G\ \Gm \G W`G  ]G  ^G bG *^G _G m`G  \G ;_G  _G 0`G 0`G*`G  [G aG _GU bGUAaG4 gG aGf cG cG `G* bGLbG  _G bbG AdGD cG bG  dG b`Gv	^G* bGͰcG< cG  cG scG  eG bG#fG  cG
+fG fGx dGp fG  dG  eG^ eGq iG4nfGEhGofG  jG 6iG lG  iG>kGWiG$MkGWnhGWcjG  jGpRgG kGp hG 6lG  hG  hGߚhG-mG cGzXnG LfG mGMjGG lGFciG?^qG  lG6BnG% mGQsGq jG 
+oG  nG  oGOlGPqG7mG7 pGnG mG <oGP oG  nGيrG7,rG tsG  nG 1tG vG  rG7!tG 1rG/ rGk!wGkzvGb^sGZ tG BuG  tGмpG qG  tGk!wGb tGssG  uG  wG0 vG&otGѦtG  wG ,yG xG MvG  }GʬzG\ |G  yG vG{ rG xG HyG( yG| vGS2zG' wG  vGJ {G vG' wG  xG ^yG  yGK |G BuG  yG wG  yG'
+wG1'zGu {Gܡ}Gܡ}G  }GB'{G j|G  xG  G 2}G  }GTjG) ~G\ ~GCG  ~G ! G / G  }G* GCG = G2 ~G ˀG] G ˁGo Gw  G H~G  G   G $ GE* G S G@ G ӁG Gk' G~ ~G⡂G ȀGꅀG $ G   G	; Gw@ GM  G Y G   G4ƄGc  G<  G 
+ GT Gm G : G G d G  G/8 GԄGo GZu G   G Gp GV܂GQ  G  G @ GɆGy* Gc GgхG0  G r G d G  GJ GyцG  G= GAԆG d G  Gc߆GJT G~ GN; G
+̈G  GҀ G   G = GN; G \ G  G  GB G-~ G  G N G%  G. G   Gn3 G  GҏGbh GgD G< G ( G ϙGG
+ GꮞG ! G V G ðG̓ G0O G56 G4  GM  G-C G"= G   Gc  G@  GĎG  G ( G  G4  G|' G   G H G+Q G d G|فGZu G"x G  G@C G   G z G  G  GY΁G   G8j Gg5 G ӁG4ƄG @ G  G   G   G0  G  G,  G5	 G   Gl  G ΉGh G  G   G  G m Ge  G  G Z G  G=J G   G\  G  G z G H Gr8 G@" G   G v G  GR  G   G   G/  G  G	{ G_8 G   GS  G 8 G   G   GÔ G$  G  G   Gz G
+  Gܾ G  Gk: Gok G F G S GXXlG ;_GЩNG  DG} 6G7 0GW2(G) G 7GsG %G \G rGo\G KG  F : G H F H FR  F   F  F>t F   F   Fs FS F  F  FO  F  F ~ F	  F F,  F G Fi F. F  Fb  F t Fc  F   F ' F j F2 F   Fd  FS  F   F   F/  F   FQ  F i F  F   F 1 Fr FQ  F S F  F1  F   F   Fu  F  F S F = F EGoG_QG_ Gp  Gi G 0GtRG  G  G 
+G3H"G G  %G, 'G N/G 1G <G ?FG rVG  G S G` Ga)H NDH  VH1YdH  cH  QH  Hy  G H,GD  F   F m FD5 FLs_F  (FL  E  E  mE@ 1E 
+ Eg Ens Dpd D   D H}Di LD Y/Dpd(D7  C  C  C Y C,  CvD=CB zC ;dC fHC^oCo!C fHC  MC C  CvD B  CQ" B/  B/  BQ" B/  B/  B/  B f B f B,  B

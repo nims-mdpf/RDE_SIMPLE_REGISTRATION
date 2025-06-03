@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dice.nims.go.jp/rde/dataset-templates/dt0004_simple_registration/invoice.schema.json",
+  "description": "固有情報と試料情報のスキーマ",
+  "type": "object",
+  "required": [
+    "custom"
+  ],
+  "properties": {
+    "custom": {
+      "type": "object",
+      "label": {
+        "ja": "固有情報",
+        "en": "Custom Information"
+      },
+      "required": [],
+      "properties": {
+        "main_image": {
+          "type": "string",
+          "label": {
+            "ja": "代表画像ファイル名",
+            "en": "main_image_filename"
+          }
+        }
+      }
+    }
+  }
+}

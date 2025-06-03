@@ -1,0 +1,14 @@
+{
+    "datasetId": "e751fcc4-b926-2222-b236-cab40316fc49",
+    "basic": {
+        "dateSubmitted": "2024-05-28",
+        "dataOwnerId": "16b51e451d6be669bb93b551420ec005b1df11113530316137643764",
+        "dataName": "${filename}",
+        "instrumentId": null,
+        "experimentId": null,
+        "description": null
+    },
+    "custom": {
+        "main_image" : null
+    }
+}
