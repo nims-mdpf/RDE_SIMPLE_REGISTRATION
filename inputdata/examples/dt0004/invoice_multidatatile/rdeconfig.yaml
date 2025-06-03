@@ -1,0 +1,7 @@
+system:
+  extended_mode: MultiDataTile
+  magic_variable: true
+  save_thumbnail_image: true
+multidata_tile:
+  ignore_errors: false
+

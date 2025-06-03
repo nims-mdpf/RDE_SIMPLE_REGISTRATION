@@ -1,0 +1,64 @@
+{
+    "datasetId": "e751fcc4-b926-2222-b236-cab40316fc49",
+    "basic": {
+        "dateSubmitted": "2024-05-28",
+        "dataOwnerId": "16b51e451d6be669bb93b551420ec005b1df11113530316137643764",
+        "dataName": "test_data",
+        "instrumentId": null,
+        "experimentId": null,
+        "description": null
+    },
+    "custom": {
+        "main_image": null,
+        "key1": null,
+        "key2": null,
+        "key3": null,
+        "key4": null,
+        "key5": null,
+        "key6": null,
+        "key7": null,
+        "key8": null,
+        "key9": null,
+        "key10": null
+    },
+    "sample": {
+        "sampleId": "8ea50153-7a87-44b7-9d6e-10179c503939",
+        "names": [ 
+            "sample"
+        ],
+        "composition": "AB2C3",
+        "referenceUrl": "test_ref",
+        "description": null,
+        "generalAttributes": [
+            {
+                "termId": "3adf9874-7bcb-e5f8-99cb-3d6fd9d7b55e",
+                "value": "test_ABC"
+            },
+            {
+                "termId": "e2d20d02-2e38-2cd3-b1b3-66fdb8a11057",
+                "value": "b"
+            },
+            {
+                "termId": "efcf34e7-4308-c195-6691-6f4d28ffc9bb",
+                "value": "c"
+            },
+            {
+                "termId": "7cc57dfb-8b70-4b3a-5315-fbce4cbf73d0",
+                "value": "d"
+            },
+            {
+                "termId": "1e70d11d-cbdd-bfd1-9301-9612c29b4060",
+                "value": "e"
+            },
+            {
+                "termId": "5e166ac4-bfcd-457a-84bc-8626abe9188f",
+                "value": "f"
+            },
+            {
+                "termId": "0d0417a3-3c3b-496a-b0fb-5a26f8a74166",
+                "value": "g"
+            }
+        ],
+        "ownerId": "16b51e451d6be669bb93b551420ec005b1df11113530316137643764"
+    }
+}
