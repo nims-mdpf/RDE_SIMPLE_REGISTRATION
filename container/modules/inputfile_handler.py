@@ -3,7 +3,6 @@ import mimetypes
 import os
 from typing import Optional
 
-from rdetoolkit.exceptions import StructuredError
 from rdetoolkit.models.rde2types import RdeInputDirPaths, RdeOutputResourcePath
 from rdetoolkit.rde2util import read_from_json_file
 
@@ -60,8 +59,6 @@ class FileReader:
         first_file = None
         image_files = []
         files = [str(f) for f in resource_paths.rawfiles]
-        if len(files) == 0:
-            raise StructuredError("No data has been entered.")
 
         # Extract image files
         image_files = self._extract_image_files(files)
