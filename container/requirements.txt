@@ -1,11 +1,6 @@
 # PyPI library used in all projects
-chardet==5.2.0
-charset-normalizer==3.3.2
-numpy==1.26.4
+rdetoolkit==1.3.4
 matplotlib==3.9.2
-openpyxl==3.1.5
-pandas==2.2.0
-rdetoolkit==1.0.3
 # PyPI libraries to be customized and installed in each project
 tifffile==2024.4.24
 scipy==1.13.0
