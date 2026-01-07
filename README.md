@@ -15,6 +15,8 @@ RDEToolKitを用いて作成されています。
 
 機能などについては[ガイド](guide.md)を参照してください。
 
+詳細は[docs/manual/index.md](docs/manual/index.md)を参照してください。
+
 ## 関連リンク
 
 - [RDEToolKit](https://github.com/nims-mdpf/rdetoolkit)
@@ -34,4 +36,5 @@ RDEToolKitを用いて作成されています。
 お問い合わせ フォーム<br>
 https://dice.nims.go.jp/contact/form.html
 
+2026.1.7 更新 \
 2025.6.3 公開

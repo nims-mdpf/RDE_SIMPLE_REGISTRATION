@@ -1,191 +1,190 @@
 {
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://dice.nims.go.jp/rde/dataset-templates/dt0001_simple_registration/invoice.schema.json",
-  "description": "固有情報と試料情報のスキーマ",
-  "type": "object",
-  "required": [
-    "custom",
-    "sample"
-  ],
-  "properties": {
-    "custom": {
-      "type": "object",
-      "label": {
-        "ja": "固有情報",
-        "en": "Custom Information"
-      },
-      "required": [],
-      "properties": {
-        "main_image": {
-          "type": "string",
-          "label": {
-            "ja": "代表画像ファイル名",
-            "en": "main_image_filename"
-          }
-        },
-        "key1": {
-          "label": {
-            "ja": "キー1",
-            "en": "key1"
-          },
-          "type": "string"
-        },
-        "key2": {
-          "label": {
-            "ja": "キー2",
-            "en": "key2"
-          },
-          "type": "string"
-        },
-        "key3": {
-          "label": {
-            "ja": "キー3",
-            "en": "key3"
-          },
-          "type": "string"
-        },
-        "key4": {
-          "label": {
-            "ja": "キー4",
-            "en": "key4"
-          },
-          "type": "string"
-        },
-        "key5": {
-          "label": {
-            "ja": "キー5",
-            "en": "key5"
-          },
-          "type": "string"
-        },
-        "key6": {
-          "label": {
-            "ja": "キー6",
-            "en": "key6"
-          },
-          "type": "string"
-        },
-        "key7": {
-          "label": {
-            "ja": "キー7",
-            "en": "key7"
-          },
-          "type": "string"
-        },
-        "key8": {
-          "label": {
-            "ja": "キー8",
-            "en": "key8"
-          },
-          "type": "string"
-        },
-        "key9": {
-          "label": {
-            "ja": "キー9",
-            "en": "key9"
-          },
-          "type": "string"
-        },
-        "key10": {
-          "label": {
-            "ja": "キー10",
-            "en": "key10"
-          },
-          "type": "string"
-        }
-      }
-    },
-    "sample": {
-      "type": "object",
-      "label": {
-        "ja": "試料情報",
-        "en": "Sample Information"
-      },
-      "required": [],
-      "properties": {
-        "generalAttributes": {
-          "type": "array",
-          "items": [
-            {
-              "type": "object",
-              "required": [
-                "termId"
-              ],
-              "properties": {
-                "termId": {
-                  "const": "3adf9874-7bcb-e5f8-99cb-3d6fd9d7b55e"
-                }
-              }
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://rde.nims.go.jp/rde/dataset-templates/RDEDatasetTemplateSheet_RDE_SIMPLE_REGISTRATION_dt0001/invoice.schema.json",
+    "description": "標準データセットテンプレートRDE_SIMPLE_REGISTRATIONのdt0001用RDEデータセットテンプレート: 送状定義",
+    "type": "object",
+    "required": [
+        "custom",
+        "sample"
+    ],
+    "properties": {
+        "custom": {
+            "type": "object",
+            "label": {
+                "ja": "固有情報",
+                "en": "Custom Information"
             },
-            {
-              "type": "object",
-              "required": [
-                "termId"
-              ],
-              "properties": {
-                "termId": {
-                  "const": "e2d20d02-2e38-2cd3-b1b3-66fdb8a11057"
+            "required": [],
+            "properties": {
+                "main_image": {
+                    "label": {
+                        "ja": "代表画像ファイル名",
+                        "en": "main_image_filename"
+                    },
+                    "type": "string"
+                },
+                "key1": {
+                    "label": {
+                        "ja": "キー1",
+                        "en": "key1"
+                    },
+                    "type": "string"
+                },
+                "key2": {
+                    "label": {
+                        "ja": "キー2",
+                        "en": "key2"
+                    },
+                    "type": "string"
+                },
+                "key3": {
+                    "label": {
+                        "ja": "キー3",
+                        "en": "key3"
+                    },
+                    "type": "string"
+                },
+                "key4": {
+                    "label": {
+                        "ja": "キー4",
+                        "en": "key4"
+                    },
+                    "type": "string"
+                },
+                "key5": {
+                    "label": {
+                        "ja": "キー5",
+                        "en": "key5"
+                    },
+                    "type": "string"
+                },
+                "key6": {
+                    "label": {
+                        "ja": "キー6",
+                        "en": "key6"
+                    },
+                    "type": "string"
+                },
+                "key7": {
+                    "label": {
+                        "ja": "キー7",
+                        "en": "key7"
+                    },
+                    "type": "string"
+                },
+                "key8": {
+                    "label": {
+                        "ja": "キー8",
+                        "en": "key8"
+                    },
+                    "type": "string"
+                },
+                "key9": {
+                    "label": {
+                        "ja": "キー9",
+                        "en": "key9"
+                    },
+                    "type": "string"
+                },
+                "key10": {
+                    "label": {
+                        "ja": "キー10",
+                        "en": "key10"
+                    },
+                    "type": "string"
                 }
-              }
-            },
-            {
-              "type": "object",
-              "required": [
-                "termId"
-              ],
-              "properties": {
-                "termId": {
-                  "const": "efcf34e7-4308-c195-6691-6f4d28ffc9bb"
-                }
-              }
-            },
-            {
-              "type": "object",
-              "required": [
-                "termId"
-              ],
-              "properties": {
-                "termId": {
-                  "const": "7cc57dfb-8b70-4b3a-5315-fbce4cbf73d0"
-                }
-              }
-            },
-            {
-              "type": "object",
-              "required": [
-                "termId"
-              ],
-              "properties": {
-                "termId": {
-                  "const": "1e70d11d-cbdd-bfd1-9301-9612c29b4060"
-                }
-              }
-            },
-            {
-              "type": "object",
-              "required": [
-                "termId"
-              ],
-              "properties": {
-                "termId": {
-                  "const": "5e166ac4-bfcd-457a-84bc-8626abe9188f"
-                }
-              }
-            },
-            {
-              "type": "object",
-              "required": [
-                "termId"
-              ],
-              "properties": {
-                "termId": {
-                  "const": "0d0417a3-3c3b-496a-b0fb-5a26f8a74166"
-                }
-              }
             }
-          ]
+        },
+        "sample": {
+            "type": "object",
+            "label": {
+                "ja": "試料情報",
+                "en": "Sample Information"
+            },
+            "properties": {
+                "generalAttributes": {
+                    "type": "array",
+                    "items": [
+                        {
+                            "type": "object",
+                            "required": [
+                                "termId"
+                            ],
+                            "properties": {
+                                "termId": {
+                                    "const": "3adf9874-7bcb-e5f8-99cb-3d6fd9d7b55e"
+                                }
+                            }
+                        },
+                        {
+                            "type": "object",
+                            "required": [
+                                "termId"
+                            ],
+                            "properties": {
+                                "termId": {
+                                    "const": "e2d20d02-2e38-2cd3-b1b3-66fdb8a11057"
+                                }
+                            }
+                        },
+                        {
+                            "type": "object",
+                            "required": [
+                                "termId"
+                            ],
+                            "properties": {
+                                "termId": {
+                                    "const": "efcf34e7-4308-c195-6691-6f4d28ffc9bb"
+                                }
+                            }
+                        },
+                        {
+                            "type": "object",
+                            "required": [
+                                "termId"
+                            ],
+                            "properties": {
+                                "termId": {
+                                    "const": "7cc57dfb-8b70-4b3a-5315-fbce4cbf73d0"
+                                }
+                            }
+                        },
+                        {
+                            "type": "object",
+                            "required": [
+                                "termId"
+                            ],
+                            "properties": {
+                                "termId": {
+                                    "const": "1e70d11d-cbdd-bfd1-9301-9612c29b4060"
+                                }
+                            }
+                        },
+                        {
+                            "type": "object",
+                            "required": [
+                                "termId"
+                            ],
+                            "properties": {
+                                "termId": {
+                                    "const": "5e166ac4-bfcd-457a-84bc-8626abe9188f"
+                                }
+                            }
+                        },
+                        {
+                            "type": "object",
+                            "required": [
+                                "termId"
+                            ],
+                            "properties": {
+                                "termId": {
+                                    "const": "0d0417a3-3c3b-496a-b0fb-5a26f8a74166"
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
         }
-      }
     }
-  }
 }
