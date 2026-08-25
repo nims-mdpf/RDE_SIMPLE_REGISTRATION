@@ -1,5 +1,6 @@
 import os
 import shutil
+import traceback
 from pathlib import Path
 
 import cairosvg
@@ -17,7 +18,7 @@ class GraphPlotter:
     """
 
     def _create_main_image(self, image_from: str, image_to: Path, raw_folder: str, first_file: str) -> None:
-        """Create main image
+        """Create main image.
 
         Args:
             image_from(str): main image source file
@@ -27,10 +28,11 @@ class GraphPlotter:
 
         Returns:
             None
+
         """
         try:
             mymime = magic.from_file(image_from, mime=True)
-            if mymime == "image/jpeg" or mymime == "image/png" or mymime == "image/gif":
+            if mymime in {"image/jpeg", "image/png", "image/gif"}:
                 shutil.copy(image_from, image_to)
             elif mymime == "application/pdf":
                 pdf_path = Path(image_from)
@@ -48,23 +50,24 @@ class GraphPlotter:
                 img = Image.open(image_from)
                 img.save(str(image_to.joinpath(Path(image_from).stem + ".png")))
         except Exception:
-            pass  # before v5
-            # shutil.copy(os.path.join(raw_folder, first_file), image_to)  # v6 or later
+            traceback.print_exc()
+            raise
 
     def _create_other_image(self, images_from: list, image_to: Path) -> None:
-        """Create other image
+        """Create other image.
 
         Args:
             images_from(list): image files list
             image_to(Path): other image destination folder
 
         Returns:
-            None
+            None.
+
         """
         for image_from in images_from:
             src_base_name = os.path.basename(image_from)
             mymime = magic.from_file(image_from, mime=True)
-            if mymime == "image/jpeg" or mymime == "image/png" or mymime == "image/gif":
+            if mymime in {"image/jpeg", "image/png", "image/gif"}:
                 shutil.copy(image_from, os.path.join(image_to, src_base_name))
             elif mymime == "application/pdf":
                 pdf_path = Path(image_from)
@@ -83,14 +86,22 @@ class GraphPlotter:
                 img = Image.open(image_from)
                 img.save(str(image_to.joinpath(Path(image_from).stem + ".png")))
 
-    def create_image(self, main_image_file: str, other_files: list, first_file: str, resource_paths: RdeOutputResourcePath) -> None:
+    def create_image(
+            self,
+            main_image_file: str,
+            other_files: list,
+            first_file: str,
+            resource_paths: RdeOutputResourcePath,
+    ) -> None:
         """Create a main image and other images.
 
         Args:
             main_image_file (str): source file
             other_files (Path): destination folder
             first_file (str): first file (In case the image could not be created)
-            resource_paths (RdeOutputResourcePath): Paths to input source files (In case the image could not be created)
+            resource_paths (RdeOutputResourcePath): Paths to input source files
+              (In case the image could not be created)
+
         """
         self._create_main_image(main_image_file, resource_paths.main_image, str(resource_paths.raw), first_file)
         self._create_other_image(other_files, resource_paths.other_image)

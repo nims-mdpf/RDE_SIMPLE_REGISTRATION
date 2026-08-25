@@ -16,26 +16,26 @@
 
 ### テンプレート情報
 - DT0001:
-    - 【データセットテンプレートID】NIMS_DT0001_SIMPLE_REGISTRATION_v1.2
+    - 【データセットテンプレートID】NIMS_DT0001_SIMPLE_REGISTRATION_v1.3
     - 【データセットテンプレート名日本語】シンプル登録データセットテンプレート(試料メタあり＋自由記述メタあり)
     - 【データセットテンプレート名英語】simple registration dataset-template(sample + free-text)
     - 【データセットテンプレートの説明】入力されたファイルをそのまま登録するだけのデータセットテンプレートです。構造化処理を行わないのでデータファイルの種類は問いません。メタデータは試料メタ＋自由記述(key1～10)メタです。
 - DT0002:
-    - 【データセットテンプレートID】NIMS_DT0002_SIMPLE_REGISTRATION_v1.2
+    - 【データセットテンプレートID】NIMS_DT0002_SIMPLE_REGISTRATION_v1.3
     - 【データセットテンプレート名日本語】シンプル登録データセットテンプレート(試料メタあり)
     - 【データセットテンプレート名英語】simple registration dataset-template(sample)
     - 【データセットテンプレートの説明】入力されたファイルをそのまま登録するだけのデータセットテンプレートです。構造化処理を行わないのでデータファイルの種類は問いません。メタデータは試料メタのみです。
 - DT0003:
-    - 【データセットテンプレートID】NIMS_DT0003_SIMPLE_REGISTRATION_v1.2
+    - 【データセットテンプレートID】NIMS_DT0003_SIMPLE_REGISTRATION_v1.3
     - 【データセットテンプレート名日本語】シンプル登録データセットテンプレート(自由記述メタあり)
     - 【データセットテンプレート名英語】simple registration dataset-template(free-text)
     - 【データセットテンプレートの説明】入力されたファイルをそのまま登録するだけのデータセットテンプレートです。構造化処理を行わないのでデータファイルの種類は問いません。メタデータは自由記述(key1～10)メタのみです。
 - DT0004:
-    - 【データセットテンプレートID】NIMS_DT0004_SIMPLE_REGISTRATION_v1.2
+    - 【データセットテンプレートID】NIMS_DT0004_SIMPLE_REGISTRATION_v1.3
     - 【データセットテンプレート名日本語】シンプル登録データセットテンプレート(メタなし)
     - 【データセットテンプレート名英語】simple registration dataset-template(no-meta)
     - 【データセットテンプレートの説明】入力されたファイルをそのまま登録するだけのデータセットテンプレートです。構造化処理を行わないのでデータファイルの種類は問いません。メタデータの記述欄はありません。
-- 【バージョン】1.2
+- 【バージョン】1.3
 - 【データセット種別】その他
 - 【データ構造化】あり (システム上「あり」を選択)
 - 【取り扱い事業】NIMS研究および共同研究プロジェクト (PROGRAM)
@@ -65,7 +65,6 @@ simple_registration
 ├── README.md
 ├── container
 │   ├── Dockerfile
-│   ├── Dockerfile_nims (NIMSイントラ用)
 │   ├── data (入出力(下記参照))
 │   ├── main.py
 │   ├── modules (ソースコード)
@@ -110,8 +109,8 @@ simple_registration
 ```
 
 ### 動作環境
-- Python: 3.11
-- RDEToolKit: 1.3.4
+- Python: 3.12
+- RDEToolKit: 1.7.1
 
 ### 動作環境ファイル入出力
 

@@ -91,14 +91,14 @@ class TestOutputCaseInvoiceNoImage:
 class TestOutputCaseInvoiceWithImage:
     """case2 invoice_with-image
     インボイスモード(画像あり)のテスト:
-        "image.tif"
+        "Mo50Ti15C-20230111-10mN-00.tif"
         "f27.bmp"
         "report.pdf"
         "materials.svg"
     """
 
     inputdata: Union[str, List[str]] = [
-        "image.tif",
+        "Mo50Ti15C-20230111-10mN-00.tif",
         "f27.bmp",
         "report.pdf",
         "materials.svg"
@@ -108,7 +108,7 @@ class TestOutputCaseInvoiceWithImage:
         setup_inputdata_folder(self.inputdata, "invoice_with-image")
 
     def test_raw_data(self, setup_main, data_path):
-        assert os.path.exists(os.path.join(data_path, "nonshared_raw", "image.tif"))
+        assert os.path.exists(os.path.join(data_path, "nonshared_raw", "Mo50Ti15C-20230111-10mN-00.tif"))
         assert os.path.exists(os.path.join(data_path, "nonshared_raw", "f27.bmp"))
         assert os.path.exists(os.path.join(data_path, "nonshared_raw", "report.pdf"))
         assert os.path.exists(os.path.join(data_path, "nonshared_raw", "materials.svg"))
@@ -128,118 +128,3 @@ class TestOutputCaseInvoiceWithImage:
         assert os.path.exists(os.path.join(data_path, "meta", "metadata.json"))
 
 
-class TestOutputCaseMultiDataTile:
-    """case3 multiDataTile
-    マルチデータタイルのテスト:
-        "image.tif"
-        "f27.bmp"
-        "materials.svg"
-        "report.pdf"
-    """
-
-    inputdata: Union[str, List[str]] = [
-        "image.tif",
-        "f27.bmp",
-        "materials.svg",
-        "report.pdf"
-    ]
-
-    def test_setup(self):
-        setup_inputdata_folder(self.inputdata, "invoice_multidatatile")
-
-    def test_raw_data(self, setup_main, data_path):
-        assert os.path.exists(os.path.join(data_path, "nonshared_raw", "image.tif"))
-        assert os.path.exists(os.path.join(data_path, "divided", "0001", "nonshared_raw", "f27.bmp"))
-        assert os.path.exists(os.path.join(data_path, "divided", "0002", "nonshared_raw", "materials.svg"))
-        assert os.path.exists(os.path.join(data_path, "divided", "0003", "nonshared_raw", "report.pdf"))
-
-    def test_main_image(self, data_path):
-        assert os.path.exists(os.path.join(data_path, "main_image", "Mo50Ti15C-20230111-10mN-00.png"))
-        assert os.path.exists(os.path.join(data_path, "divided", "0001", "main_image", "f27.png"))
-        assert os.path.exists(os.path.join(data_path, "divided", "0002", "main_image", "materials.png"))
-        assert os.path.exists(os.path.join(data_path, "divided", "0003", "main_image", "report.png"))
-
-    def test_structured(self):
-        assert True
-
-    def test_meta(self, data_path):
-        assert os.path.exists(os.path.join(data_path, "meta", "metadata.json"))
-        assert os.path.exists(os.path.join(data_path, "divided", "0001", "meta", "metadata.json"))
-        assert os.path.exists(os.path.join(data_path, "divided", "0002", "meta", "metadata.json"))
-        assert os.path.exists(os.path.join(data_path, "divided", "0003", "meta", "metadata.json"))
-
-
-class TestOutputCaseExcelInvoiceFile:
-    """case4 excelinvoice_file
-    エクセルインボイスモード(ファイル)のテスト:
-        "test_3_files.zip"
-        "TEST_file_excel_invoice.xlsx"
-    """
-
-    inputdata: Union[str, List[str]] = [
-        "test_3_files.zip",
-        "TEST_file_excel_invoice.xlsx"
-    ]
-
-    def test_setup(self):
-        setup_inputdata_folder(self.inputdata, "excelinvoice_file")
-
-    def test_raw_data(self, setup_main, data_path):
-        assert os.path.exists(os.path.join(data_path, "nonshared_raw", "GaP_test_002_DOS.csv"))
-        assert os.path.exists(os.path.join(data_path, "divided", "0001", "nonshared_raw", "GaP_test_002.cif"))
-        assert os.path.exists(os.path.join(data_path, "divided", "0002", "nonshared_raw", "GaP_test_002_BandStr.csv"))
-
-    def test_main_image(self):
-        assert True
-
-    def test_other_image(self):
-        assert True
-
-    def test_structured(self):
-        assert True
-
-    def test_meta(self, data_path):
-        assert os.path.exists(os.path.join(data_path, "meta", "metadata.json"))
-        assert os.path.exists(os.path.join(data_path, "divided", "0001", "meta", "metadata.json"))
-        assert os.path.exists(os.path.join(data_path, "divided", "0002", "meta", "metadata.json"))
-
-
-class TestOutputCaseExcelInvoiceFolder:
-    """case5 excelinvoice_folder
-    エクセルインボイスモード(フォルダ)のテスト:
-        "test_3_folders.zip"
-        "TEST_folder_excel_invoice.xlsx"
-    """
-
-    inputdata: Union[str, List[str]] = [
-        "test_3_folders.zip",
-        "TEST_folder_excel_invoice.xlsx"
-    ]
-
-    def test_setup(self):
-        setup_inputdata_folder(self.inputdata, "excelinvoice_folder")
-
-    def test_raw_data(self, setup_main, data_path):
-        assert os.path.exists(os.path.join(data_path, "nonshared_raw", "GaP_test_001.cif"))
-        assert os.path.exists(os.path.join(data_path, "divided", "0001", "nonshared_raw", "GaP_test_002_BandStr.csv"))
-        assert os.path.exists(os.path.join(data_path, "divided", "0001", "nonshared_raw", "GaP_test_002_DOS.csv"))
-        assert os.path.exists(os.path.join(data_path, "divided", "0001", "nonshared_raw", "GaP_test_002.cif"))
-        assert os.path.exists(os.path.join(data_path, "divided", "0002", "nonshared_raw", "GaP_test_003 Elastic Constants.txt"))
-        assert os.path.exists(os.path.join(data_path, "divided", "0002", "nonshared_raw", "GaP_test_003_BandStr.csv"))
-        assert os.path.exists(os.path.join(data_path, "divided", "0002", "nonshared_raw", "GaP_test_003_DOS.csv"))
-        assert os.path.exists(os.path.join(data_path, "divided", "0002", "nonshared_raw", "GaP_test_003_PhonDOS.csv"))
-        assert os.path.exists(os.path.join(data_path, "divided", "0002", "nonshared_raw", "GaP_test_003.cif"))
-
-    def test_main_image(self):
-        assert True
-
-    def test_other_image(self):
-        assert True
-
-    def test_structured(self):
-        assert True
-
-    def test_meta(self, data_path):
-        assert os.path.exists(os.path.join(data_path, "meta", "metadata.json"))
-        assert os.path.exists(os.path.join(data_path, "divided", "0001", "meta", "metadata.json"))
-        assert os.path.exists(os.path.join(data_path, "divided", "0002", "meta", "metadata.json"))

@@ -1,8 +1,7 @@
-import magic
 import mimetypes
 import os
-from typing import Optional
 
+import magic
 from rdetoolkit.models.rde2types import RdeInputDirPaths, RdeOutputResourcePath
 from rdetoolkit.rde2util import read_from_json_file
 
@@ -15,13 +14,14 @@ class FileReader:
     """
 
     def _extract_image_files(self, files: list) -> list:
-        """Extract image files
+        """Extract image files.
 
         Args:
             files(list): all input files
 
         Returns:
             list: all input image files
+
         """
         image_files, images_magic, images_mime, pdfs = [], [], [], []
 
@@ -36,14 +36,17 @@ class FileReader:
                     images_mime.append(file)
                 if mimetype in ("application/pdf"):
                     pdfs.append(file)
-            image_files = sorted(list(set(images_magic) | set(images_mime) | set(pdfs)), key=str.lower)
+            image_files = sorted(set(images_magic) | set(images_mime) | set(pdfs), key=str.lower)
         except Exception:
             image_files.clear()
-            pass
 
         return image_files
 
-    def divide(self, resource_paths: RdeOutputResourcePath, srcpaths: RdeInputDirPaths) -> tuple[Optional[str], list, Optional[str]]:
+    def divide(
+        self,
+        resource_paths: RdeOutputResourcePath,
+        srcpaths: RdeInputDirPaths,
+    ) -> tuple[str | None, list, str | None]:
         """Divide the input file into main image file and other image files.
 
         Args:
@@ -54,6 +57,7 @@ class FileReader:
             Optional[str]: main image
             list: other images
             Optional[str]: first image
+
         """
         main_image_file = None
         first_file = None
