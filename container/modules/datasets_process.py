@@ -32,6 +32,7 @@ class SimpleRegistrationProcessingCoordinator:
         # Note: The method 'execute_processing' hasn't been defined in the provided code,
         #       so its usage is just an example here.
         module.execute_processing(srcpaths, resource_paths)
+
     """
 
     def __init__(
@@ -47,6 +48,7 @@ class SimpleRegistrationProcessingCoordinator:
 
 def simple_registration_module(srcpaths: RdeInputDirPaths, resource_paths: RdeOutputResourcePath) -> None:
     """Not execute structured text processing, metadata extraction, and visualization.
+
     Simply copy and generate the image files.
 
     Args:
@@ -55,14 +57,18 @@ def simple_registration_module(srcpaths: RdeInputDirPaths, resource_paths: RdeOu
 
     Returns:
         None
+
     """
     module = SimpleRegistrationProcessingCoordinator(FileReader(), MetaParser(), GraphPlotter())
     # Divide input File
     main_image_file, other_images, first_file = module.file_reader.divide(resource_paths, srcpaths)
     # Meta (empty)
-    module.meta_parser.save_meta(resource_paths.meta.joinpath("metadata.json"), Meta(srcpaths.tasksupport.joinpath("metadata-def.json")))
+    module.meta_parser.save_meta(
+        resource_paths.meta.joinpath("metadata.json"),
+        Meta(srcpaths.tasksupport.joinpath("metadata-def.json")))
     # Invoice
-    shutil.copy(resource_paths.invoice.joinpath("invoice.json"), os.path.join(resource_paths.struct, "invoice_org.json"))
+    shutil.copy(resource_paths.invoice.joinpath("invoice.json"),
+                os.path.join(resource_paths.struct, "invoice_org.json"))
     # Graph (or rather image creation)
     if main_image_file is not None and first_file is not None:
         module.graph_plotter.create_image(main_image_file, other_images, first_file, resource_paths)
@@ -70,13 +76,11 @@ def simple_registration_module(srcpaths: RdeInputDirPaths, resource_paths: RdeOu
 
 # @catch_exception_with_message("ERROR: failed in data processing")
 def dataset(srcpaths: RdeInputDirPaths, resource_paths: RdeOutputResourcePath) -> None:
-    """wrapper function for structured processing
+    """Run structured processing.
 
     Args:
-        srcpaths (RdeInputDirPaths): Paths to input resources for processing.
-        resource_paths (RdeOutputResourcePath): Paths to output resources for saving results.
+        srcpaths: Paths to input resources for processing.
+        resource_paths: Paths to output resources for saving results.
 
-    Returns:
-        None
     """
     simple_registration_module(srcpaths, resource_paths)
